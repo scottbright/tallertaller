@@ -21,6 +21,7 @@ class Bar(object):
 
 
     def __init__(self, color,pos):
+        self.c = 100
         self.width = 5 # should be 5
         self.color = color
         self.heigh = 150
@@ -29,7 +30,7 @@ class Bar(object):
 
     def update(self):
     	if self.width > 5:
-    		self.width -= 0.02+(0.01*self.level)
+    		self.width -= 0.02+(0.02*self.level)
     	if self.width < 5:
     		self.width = 5
         if self.width > 350:
