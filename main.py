@@ -16,7 +16,7 @@ class SpaceGame(gamelib.SimpleGame):
         self.select = 1
         self.level = 1
         self.button = 0
-        self.time = 45
+        self.time = 90
         self.mtime = 0
         self.ball = Ball(radius=10,
                          color=SpaceGame.WHITE,
